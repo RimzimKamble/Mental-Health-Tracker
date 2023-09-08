@@ -1,0 +1,1149 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "Hey!\nHow are you doing?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I am sad",
+								"action": {
+									"type": "quickReply",
+									"message": "I am sad"
+								}
+							},
+							{
+								"name": "I am Happy",
+								"action": {
+									"type": "quickReply",
+									"message": "I am Happy"
+								}
+							},
+							{
+								"name": "I am okay",
+								"action": {
+									"type": "quickReply",
+									"message": "I am okay"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Please select one by clicking on the messages",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669638119054-image597.jpg"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Hola",
+			"trainingPhrases": [
+				"Hola",
+				"Hello",
+				"Hey",
+				"Hi"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Then let me make you laugh by telling you a joke.\nQ- Why was the pediatrician always losing his anger?\nA- Because he had little patients."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "You can checkout our activities section for fun games and other soothing activities",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669638427154-image980.jpg"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "I am happy",
+			"trainingPhrases": [
+				"I am Happy"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How intense is this feeling?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Not that intense",
+								"action": {
+									"type": "quickReply",
+									"message": "Not that intense"
+								}
+							},
+							{
+								"name": "very intense",
+								"action": {
+									"type": "quickReply",
+									"message": "very intense"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "yes I wanna talk",
+			"trainingPhrases": [
+				"yes"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Do you want to talk about it?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "yes",
+								"action": {
+									"type": "quickReply",
+									"message": "yes"
+								},
+								"replyMetadata": {
+									"KM_TRIGGER_EVENT": "yes I wanna talk",
+									"KM_CHAT_CONTEXT": {
+										"buttonClicked": true
+									}
+								}
+							},
+							{
+								"name": "No",
+								"action": {
+									"type": "quickReply",
+									"message": "No"
+								},
+								"replyMetadata": {
+									"KM_TRIGGER_EVENT": "I am happy",
+									"KM_CHAT_CONTEXT": {
+										"buttonClicked": true
+									}
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "wanna talk about it",
+			"trainingPhrases": [
+				"I am okay",
+				"I am sad"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Thank you for you precious time\nI would like to share a joke with you\n\nQ - What do dentists call their x-rays?\n\nA - Tooth pics!\n\nAlso I hope this quote makes you feel better\n\"You are strong. You are beautiful. You are resilient. You are loved. You are capable. You are not weak. You are not defected. You are not weird. You are not a lost cause. You are different. Being different is being incredible\""
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Being different is being beautiful.",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669641724089-image881.jpg"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "CHECK OUT OUR FUN ACTIVITIES",
+								"action": {
+									"type": "quickReply",
+									"message": "CHECK OUT OUR FUN ACTIVITIES"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 1",
+			"trainingPhrases": [
+				"I do not have any suicidal thoughts"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Thank you for your precious time,\nAnd since we have discovered that you feel very depressed , we would like to make you comfortable by these music suggestions \nLink1: xxxxxxxxxx\nLink2: xxxxxxxxxx\nLink3:"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Music is medicine",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669642767988-image248.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "REPLY 2",
+			"trainingPhrases": [
+				"I have thoughts of killing myself"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How do you feel about the coming tomorrow?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I am not particularly discouraged",
+								"action": {
+									"type": "quickReply",
+									"message": "I am not particularly discouraged"
+								}
+							},
+							{
+								"name": "I feel discouragaed",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel discouragaed"
+								}
+							},
+							{
+								"name": "I feel the future is hopeless",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel the future is hopeless"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669643396540-image789.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q1",
+			"trainingPhrases": [
+				"very intense",
+				"Not that intense"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How often do you cry?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I cry sometimes",
+								"action": {
+									"type": "quickReply",
+									"message": "I cry sometimes"
+								}
+							},
+							{
+								"name": "I cry all the time",
+								"action": {
+									"type": "quickReply",
+									"message": "I cry all the time"
+								}
+							},
+							{
+								"name": "I cannot cry even though I want to",
+								"action": {
+									"type": "quickReply",
+									"message": "I cannot cry even though I want to"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "It is okay to cry , it will make you feel lighter",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669643580168-image733.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q3",
+			"trainingPhrases": [
+				"I feel like a complete failure",
+				"I can see a lot of failures in the past"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Do you get any suicidal thoughts ?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I do not have any suicidal thoughts",
+								"action": {
+									"type": "quickReply",
+									"message": "I do not have any suicidal thoughts"
+								}
+							},
+							{
+								"name": "I have thoughts of killing myself",
+								"action": {
+									"type": "quickReply",
+									"message": "I have thoughts of killing myself"
+								}
+							},
+							{
+								"name": "I would like to kill myself",
+								"action": {
+									"type": "quickReply",
+									"message": "I would like to kill myself"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "“Suicide is not an answer, it’s destruction.” — Al Green\nThe epic story of tomorrow can't be written if it ends today.",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669643696666-image243.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q4",
+			"trainingPhrases": [
+				"I cannot cry even though I want to",
+				"I cry all the time"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Do you feel particularly guilty?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I feel guilty a good part of the time",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel guilty a good part of the time"
+								}
+							},
+							{
+								"name": "I feel quite guilty most of the time. ",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel quite guilty most of the time. "
+								}
+							},
+							{
+								"name": "I feel guilty all of the time.",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel guilty all of the time."
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669645227334-image753.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q5",
+			"trainingPhrases": [
+				"I am not particularly discouraged"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Are you irritated by things?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I am slightly more irritated now than usual. ",
+								"action": {
+									"type": "quickReply",
+									"message": "I am slightly more irritated now than usual. "
+								}
+							},
+							{
+								"name": "I am quite annoyed a good deal of the time.",
+								"action": {
+									"type": "quickReply",
+									"message": "I am quite annoyed a good deal of the time."
+								}
+							},
+							{
+								"name": "I feel irritated all the time.",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel irritated all the time."
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "Life is so short. The only person you hurt when you stay angry or hold grudges is you. Forgive everyone, including yourself"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q6",
+			"trainingPhrases": [
+				"I feel guilty all of the time.",
+				"I feel quite guilty most of the time.",
+				"I feel guilty a good part of the time"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Have you noticed any recent changes in sex?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I am less interested in sex than I used to be. ",
+								"action": {
+									"type": "quickReply",
+									"message": "I am less interested in sex than I used to be. "
+								}
+							},
+							{
+								"name": "I have almost no interest in sex.",
+								"action": {
+									"type": "quickReply",
+									"message": "I have almost no interest in sex."
+								}
+							},
+							{
+								"name": "I have lost interest in sex completely",
+								"action": {
+									"type": "quickReply",
+									"message": "I have lost interest in sex completely"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "The intimate time you spend together is romantic, thrilling and releases oxytocin and dopamine",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669646067024-image163.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q7",
+			"trainingPhrases": [
+				"I am quite annoyed a good deal of the time.",
+				"I am slightly more irritated now than usual.",
+				"I feel irritated all the time."
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How is your appetite?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "My appetite is not as good as it used to be",
+								"action": {
+									"type": "quickReply",
+									"message": "My appetite is not as good as it used to be"
+								}
+							},
+							{
+								"name": "My appetite is much worse now. ",
+								"action": {
+									"type": "quickReply",
+									"message": "My appetite is much worse now. "
+								}
+							},
+							{
+								"name": "I have no appetite at all anymore.",
+								"action": {
+									"type": "quickReply",
+									"message": "I have no appetite at all anymore."
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669646465619-image412.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q8",
+			"trainingPhrases": [
+				"I have lost interest in sex completely",
+				"I have almost no interest in sex.",
+				"I am less interested in sex than I used to be."
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Your body definitely needs a lot of hydration .\nDehydration can lead to severe complications, such as seizures, swelling of the brain, kidney failure, shock, coma and even death. Signs and symptoms of dehydration include: Headache. Dizziness or lightheadedness."
+				},
+				{
+					"message": "Few ways to hydrate yourself are\n1.Water\n2.Electrolyte-Infused Water\n3.Pedialyte\n4.Gatorade"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 8.2",
+			"trainingPhrases": [
+				"My appetite is much worse now. "
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Are you satisfied with what you are doing?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I am satisfied with myself",
+								"action": {
+									"type": "quickReply",
+									"message": "I am satisfied with myself"
+								}
+							},
+							{
+								"name": "I can see a lot of failures in the past",
+								"action": {
+									"type": "quickReply",
+									"message": "I can see a lot of failures in the past"
+								}
+							},
+							{
+								"name": "I feel like a complete failure",
+								"action": {
+									"type": "quickReply",
+									"message": "I feel like a complete failure"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669643480217-image432.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q2",
+			"trainingPhrases": [
+				"I feel the future is hopeless",
+				"I feel discouragaed"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How would you describe your decision making?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I put off making decisions more than I used to.",
+								"action": {
+									"type": "quickReply",
+									"message": "I put off making decisions more than I used to."
+								}
+							},
+							{
+								"name": "I have greater difficulty in more than I used to",
+								"action": {
+									"type": "quickReply",
+									"message": "I have greater difficulty in more than I used to"
+								}
+							},
+							{
+								"name": "I can't make decisions at all anymore",
+								"action": {
+									"type": "quickReply",
+									"message": "I can't make decisions at all anymore"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "Unable to decide?",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669647512026-image372.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q9",
+			"trainingPhrases": [
+				"I am satisfied with myself"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "How are your sleeping habits?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I can sleep as well as usual",
+								"action": {
+									"type": "quickReply",
+									"message": "I can sleep as well as usual"
+								}
+							},
+							{
+								"name": "I don't sleep as well as I used to",
+								"action": {
+									"type": "quickReply",
+									"message": "I don't sleep as well as I used to"
+								}
+							},
+							{
+								"name": "I wake up several hours earlier than I used to",
+								"action": {
+									"type": "quickReply",
+									"message": "I wake up several hours earlier than I used to"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "A good laugh and a long sleep are the best cures in the doctor's book",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669647778406-image487.png"
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q10",
+			"trainingPhrases": [
+				"I put off making decisions more than I used to.",
+				"I have greater difficulty in making decisions more than I used to",
+				"I can't make decisions at all anymore"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Do you get Tired easily?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "I don't get more tired than usual",
+								"action": {
+									"type": "quickReply",
+									"message": "I don't get more tired than usual"
+								}
+							},
+							{
+								"name": "I get tired more easily than I used to",
+								"action": {
+									"type": "quickReply",
+									"message": "I get tired more easily than I used to"
+								}
+							},
+							{
+								"name": "I get tired from doing almost anything",
+								"action": {
+									"type": "quickReply",
+									"message": "I get tired from doing almost anything"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Q11",
+			"trainingPhrases": [
+				"I wake up several hours earlier than I used to",
+				"I don't sleep as well as I used to",
+				"I can sleep as well as usual"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Depending upon your responses we believe that you should try out Yoga. for the stress relief.\nThe link is given below."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "yoga for stress relief",
+								"action": {
+									"type": "link",
+									"url": "https://www.youtube.com/watch?v=qiKJRoX_2uo"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 8.1",
+			"trainingPhrases": [
+				"My appetite is not as good as it used to be"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Depending upon your responses we believe that you should try out Yoga. for the stress relief.\nThe link is given below."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "yoga for stress relief",
+								"action": {
+									"type": "link",
+									"url": "https://www.youtube.com/watch?v=qiKJRoX_2uo"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Or play some fun and stress relief games with us ",
+								"action": {
+									"type": "quickReply",
+									"message": "Or play some fun and stress relief games with us "
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 11.2",
+			"trainingPhrases": [
+				"I get tired more easily than I used to"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "Your body definitely needs a lot of hydration .\nFew ways to hydrate yourself are\n1.Water\n2.Electrolyte-Infused Water\n3.Pedialyte\n4.Gatorade"
+				},
+				{
+					"message": "Thank you for your precious time,\nAnd since we have discovered that you feel very depressed. And to rest your mind we would like to make you comfortable by these music suggestions \nLink1: xxxxxxxxxx\nLink2: xxxxxxxxxx\nLink3:"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669648115424-image384.png"
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Or play some fun and stress relief games with us ",
+								"action": {
+									"type": "quickReply",
+									"message": "Or play some fun and stress relief games with us "
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 11.1",
+			"trainingPhrases": [
+				"I don't get more tired than usual"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "We feel That you should consider getting some professional help .\nYou are important to us.\nPlease check out the follow helpline numbers\nDr.XXXXXXXXXXXXXXXX\nIt could save a  life"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Telephone no: XX XXXx XXXX",
+								"action": {
+									"type": "quickReply",
+									"message": "Telephone no: XX XXXx XXXX"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "We care for you ",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669648430074-image791.png"
+							}
+						]
+					}
+				},
+				{
+					"message": "Start Another conversation by Typing Hi"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 11.3",
+			"trainingPhrases": [
+				"I get tired from doing almost anything"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "We feel That you should consider getting some professional help .\nYou are important to us.\nPlease check out the follow helpline numbers\nDr.XXXXXXXXXXXXXXXX\nIt could save a  life"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "You deserve the world",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669647433357-image535.png"
+							}
+						]
+					}
+				},
+				{
+					"message": "Start Another conversation by Typing Hi"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 8.3",
+			"trainingPhrases": [
+				"I have no appetite at all anymore."
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "We feel That you should consider getting some professional help .\nYou are important to us.\nPlease check out the follow helpline numbers\nDr.XXXXXXXXXXXXXXXX\nIt could save a  life"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Telephone no: XXXXXXXXXXX",
+								"action": {
+									"type": "quickReply",
+									"message": "Telephone no: XXXXXXXXXXX"
+								}
+							},
+							{
+								"name": "Telephone no: XXXXXXXXXX",
+								"action": {
+									"type": "quickReply",
+									"message": "Telephone no: XXXXXXXXXX"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "9",
+						"payload": [
+							{
+								"caption": "",
+								"url": "https://s3.amazonaws.com/kommunicate-prod.s3/kompose/1669643138179-image829.png"
+							}
+						]
+					}
+				},
+				{
+					"message": "Start Another conversation by Typing Hi"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "reply 3",
+			"trainingPhrases": [
+				"I would like to kill myself"
+			]
+		}
+	],
+	"webhooks": {}
+}
